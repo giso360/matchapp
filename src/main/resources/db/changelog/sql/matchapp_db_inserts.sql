@@ -1,0 +1,12 @@
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (101, 'OSFP-ARSENAL', '2021-04-06', 'OSFP', 'PAO', '12:00:00', 0);
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (102, 'OSFP-PORTO', '2021-04-06', 'OSFP', 'PORTO', '12:00:00', 0);
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (103, 'OSFP-PORTO', '2021-04-06', 'OSFP', 'PORTO', '12:00:00', 0);
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (104, 'OSFP-PORTO', '2021-04-06', 'OSFP', 'PORTO', '12:00:00', 0);
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (105, 'OSFP-PORTO', '2021-04-06', 'OSFP', 'PORTO', '12:00:00', 1);
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (108, 'OSFP-BAYERN FC', '2021-04-06', 'OSFP', 'BAYERN FC', '20:00:00', 1);
+INSERT INTO public.matches (match_id, description, match_date, team_a, team_b, match_time, sport) VALUES (109, 'OSFP-PORTO2', '2021-04-06', 'OSFP', 'PORTO', '12:00:00', 1);
+INSERT INTO public.match_odds (odd_id, match_id, specifier, odd) VALUES (1, 101, '1', 1.4);
+INSERT INTO public.match_odds (odd_id, match_id, specifier, odd) VALUES (3, 101, '2', 2.2);
+INSERT INTO public.match_odds (odd_id, match_id, specifier, odd) VALUES (113, 108, 'X', 10);
+INSERT INTO public.match_odds (odd_id, match_id, specifier, odd) VALUES (114, 108, '1', 10.5);
+INSERT INTO public.match_odds (odd_id, match_id, specifier, odd) VALUES (115, 108, '2', 1.7);
